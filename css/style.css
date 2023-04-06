@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background: linear-gradient(67.6deg, rgb(225, 242, 254) -2.8%, rgb(193, 224, 250) 44.6%, rgb(19, 116, 197) 102.4%);
+}
+
+
+header{
+    gap: 10px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.logo{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+    font-family: 'Righteous', cursive;
+    color: #8d8787;
+}
+.logo{
+    /* width: 70px; */
+    height: 50px;
+}
+.a{
+    color: bisque;
+}
+.carrinho{
+    margin: 2px;
+    padding: 5%;
+    gap:10px;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: end;    
+}
+
+header {
+    color: rgb(23, 23, 91);
+    width: 1260px;
+    height: 80px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;    
+
+}
+.header-content{
+    color: blue;
+    }
+
+    .login{
+    color: azure;
+}
+
+h1{
+    color: rgb(65, 65, 152);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+    }
+
+h2{
+    color: rgb(71, 71, 71);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Sarala', sans-serif;
+    text-decoration: underline;
+}
+
+.flight-info{
+    border-style: dotted;
+    padding: 20px;
+    height: 155px;
+    margin:220px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.destination{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+.seat{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+
+}
+.airport{
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.time{
+    text-align: left;
+}
+
+strong{
+    color: red;
+}
+
+.print{
+    margin: 0;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+ }
+
+ footer{
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .image-footer{
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+     }
